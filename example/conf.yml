@@ -1,0 +1,39 @@
+#
+# PyMirror demo configuration file
+#
+
+[mirrorconfig]
+name = Demo
+fullscreen = False
+screen_width = 1200
+screen_height = 1600
+scale = 0.5
+font_size = 80
+font_color = ffffff
+fps = 2
+
+# Cache for scaled images
+cache_dir = cache
+
+[time]
+source = clock.py
+top = -110
+left = -270
+width = 250
+height = 100
+
+[xkcd]
+source = pngimage.py
+top = 300
+left = 350
+width = 500
+height = 526
+image_name = xkcdScience.png
+
+# A module that covers the entire width and height
+[demo]
+source = demo.py
+top = 0
+left = 0
+width = -1
+height = -1

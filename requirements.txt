@@ -1,0 +1,5 @@
+pygame==2.5.2
+python-dateutil==2.8.2
+pytz==2023.3.post1
+requests==2.31.0
+xmltodict==0.12.0

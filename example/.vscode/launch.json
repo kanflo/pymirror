@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Example Mirror",
+            "type": "python",
+            "request": "launch",
+            "module": "pymirror",
+            "args": ["-c", "conf.yml"],
+            "justMyCode": true
+          },
+            {
+            "name": "Example Mirror (leftovers)",
+            "type": "python",
+            "request": "launch",
+            "program": "",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "args" : ["-m", "../pymirror", "-c", "conf.yml", "-v", "-d", "-f", "1", "-s", "0.6"],
+            "subProcess": true
+        }
+    ]
+}

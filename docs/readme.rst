@@ -191,6 +191,11 @@ Create the file ``/etc/supervisor/conf.d/pymirror.conf``:
 
 Reload supervisor ``sudo supervisorctl reread && sudo supervisorctl update`` and the mirror should start at boot.
 
+----------
+What Next?
+----------
+
+I have two other repos with `various modules <https://github.com/kanflo/pymirror-modules/tree/main>`_ and a module for `displaying status <https://github.com/kanflo/pymirror-bambulab>`_ from your Bambulab 3D printer.
 
 
 -----
